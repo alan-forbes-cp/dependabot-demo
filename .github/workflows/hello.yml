@@ -7,4 +7,6 @@ jobs:
       - name: echo-step
         run: echo "Hello World!"
       - name: list-step
-        run: ls -l
+        run: ls -l && ls -l ..
+      - name: pwd-step
+        run: pwd
